@@ -18,9 +18,6 @@ except FileNotFoundError:
     print("Error: model.pkl not found. Make sure the model is saved.")
     model = None
 
-# 修改 main.py
-
-
 @app.post("/predict")
 async def predict_batch(file: UploadFile = File(...)):
     # 1. 檢查檔案格式
