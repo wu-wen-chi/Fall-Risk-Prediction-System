@@ -6,7 +6,7 @@ API_URL = "http://localhost:8000/predict"
 
 st.set_page_config(layout="wide", page_title="論文")
 
-st.title("跌倒風險預測系統")
+st.subheader("跌倒風險預測系統")
 
 # 1. 檔案上傳元件
 uploaded_file = st.file_uploader("請上傳病患資料（僅限 CSV 格式）", type=["csv"])
