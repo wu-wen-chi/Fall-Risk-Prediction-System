@@ -3,4 +3,4 @@
 2. 啟動後端：`python main.py`
 3. 啟動前端：`streamlit run streamlit_app.py`
 
-網站連結：https://fall-risk-prediction-system-jqqop59rd5i26vypqsfafn.streamlit.app
+網站連結：https://fall-risk-prediction-system-jytyfpxot8fq7s7jcwhqtd.streamlit.app/
