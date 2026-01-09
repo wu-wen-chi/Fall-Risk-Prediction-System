@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="主題介紹")
+st.set_page_config(layout="wide", page_title="論文")
 st.subheader("認識帕金森氏症與跌倒風險預測的重要性")
 
 st.divider()
@@ -14,7 +14,7 @@ st.markdown('''
 
 st.markdown("##### 2. 為何「長期性研究」至關重要？")
 st.markdown('''
-    * 疾病程動態捕捉：PD 是進展性疾病，單一年度的數據僅能反映特定時間點的病況，長期性研究能有效捕捉病程的動態變化 。
+    * 疾病程動態捕捉：PD 是進展性疾病，單一年度的數據僅能反映特定時間點的病況，長期性研究能有效捕捉病程的動態變化 
     * 提升預警能力：整合跨年度（如本研究之兩年度數據）的資料，有助於模型學習更全面的風險特徵，使預測更具穩定性與長期預警能力 。
 ''')
 
@@ -29,7 +29,7 @@ st.divider()
 st.subheader("如何蒐集資料？")
 st.markdown("本研究利用 Kinect V2 非侵入式感測設備，透過長期追蹤受試者在服藥前後的步態變化，結合機器學習技術，建立跌倒風險的預測模型。")
 # 建立 3 個欄位，比例設為 [1, 2, 1] (中間較寬)
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2, col3 = st.columns([1, 3, 1])
 
 with col2:
     st.image("./images/Experimental_space.png", caption="實驗空間與Kinect V2設備配置示意圖")
@@ -55,7 +55,3 @@ with st.container(border=True):
         * 週期： 每位病患共累積 2 年度的對照資料。
         * 目標： 觀察步態表現與跌倒風險的長期變化趨勢，作為 AI 模型訓練與預測的基礎。
     ''')
-
-st.divider()
-
-

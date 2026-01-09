@@ -22,11 +22,11 @@ if uploaded_file is not None:
         
         # 2. 封裝檔案準備發送
         files = {"file": (uploaded_file.name, uploaded_file.getvalue(), "text/csv")}
-        
+
         with st.spinner('模型分析中，請稍候...'):
             try:
                 response = requests.post(API_URL, files=files)
-                
+    
                 if response.status_code == 200:
                     results = response.json()
                     df_result = pd.DataFrame(results)
