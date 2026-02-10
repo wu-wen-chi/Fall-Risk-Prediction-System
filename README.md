@@ -24,7 +24,7 @@
 
 - **前端**：使用 [Streamlit](https://streamlit.io/) 建立互動式網頁。
 - **後端**：使用 [FastAPI](https://fastapi.tiangolo.com/) 提供 API 服務。
-- **機器學習模型**：基於 scikit-learn 訓練的跌倒風險預測模型。
+- **機器學習模型**：基於 scikit-learn 訓練的跌倒風險預測模型，需先打包模型為pkl檔。
 
 ## 安裝與執行
 
@@ -35,7 +35,7 @@
 
 ### 2. 安裝步驟
 
-1. 克隆此專案到本地端：
+1. Clone此專案到本地端：
    ```bash
    git clone https://github.com/wu-wen-chi/Fall-Risk-Prediction-System.git
    cd Fall-Risk-Prediction-System
