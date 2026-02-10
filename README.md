@@ -1,4 +1,4 @@
-<a href="https://img.shields.io/badge/Python-3.8.8-blue" target="_blank"></a>
+https://img.shields.io/badge/Python-3.8.8-blue
 
 # 論文介紹網站－跌倒風險預測系統
 
