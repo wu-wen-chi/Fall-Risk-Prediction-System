@@ -8,7 +8,7 @@ def get_image_base64(path):
 st.set_page_config(layout="wide", page_title="論文")
 
 st.subheader("績效評估方法")
-st.divider()
+st.divider() # 分隔線
 st.markdown("##### 1. 交叉驗證（Cross-Validation）")
 st.markdown("* __五折交叉驗證__：將資料集分成五個子集，依次使用其中四個子集進行模型訓練，剩餘一個子集用於測試，重複五次以確保每個子集都被用作測試集，以增強結果穩定性與可信度。")
 cv_img_base64 = get_image_base64("./images/cross_validation.png")
@@ -16,8 +16,7 @@ st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{cv_img_base64}" width="500">
-    </div>
-    """,
+    </div>""",
     unsafe_allow_html=True
 )
 
@@ -37,7 +36,6 @@ st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{rp_img_base64}" width="500">
-    </div>
-    """,
+    </div>""",
     unsafe_allow_html=True
 )
