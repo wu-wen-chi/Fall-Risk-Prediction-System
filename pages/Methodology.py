@@ -58,8 +58,7 @@ st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{gait_img_base64}" width="500">
-    </div>
-    """,
+    </div>""",
     unsafe_allow_html=True
 )
 
@@ -70,7 +69,6 @@ st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
         <img src="data:image/png;base64,{rom_img_base64}" width="600">
-    </div>
-    """,
+    </div>""",
     unsafe_allow_html=True
 )
