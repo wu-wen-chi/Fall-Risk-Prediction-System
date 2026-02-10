@@ -9,7 +9,7 @@ def get_image_base64(path):
 st.set_page_config(layout="wide", page_title="論文")
 
 st.subheader("特徵工程與說明")
-st.divider()
+st.divider() # 分隔線
 st.markdown("##### 1. 如何提取特徵？")
 
 st.markdown('''
@@ -27,7 +27,7 @@ st.markdown(
     unsafe_allow_html=True
 )
     
-st.divider()
+st.divider() # 分隔線
 
 st.markdown("##### 2. 如何提取步態週期？")
 
@@ -47,7 +47,7 @@ with col1:
 with col2:
     st.video("./vedio/gait_cycle.mp4")
 
-st.divider()
+st.divider() # 分隔線
 
 st.markdown("##### 3. 特徵分類表")
 
