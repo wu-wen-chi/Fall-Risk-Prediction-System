@@ -1,5 +1,9 @@
 https://img.shields.io/badge/Python-3.8.8-blue
 
+<a href="https://molly1024.medium.com/" target="_blank">
+      <img src="https://img.shields.io/badge/Python-3.8.8-blue" />
+</a>
+
 # 論文介紹網站－跌倒風險預測系統
 
 本專案是一個基於機器學習的跌倒風險預測系統，旨在透過步態分析與特徵工程，預測帕金森氏症患者的跌倒風險。系統包含前端網站與後端 API，提供使用者友好的界面與高效的預測功能。
