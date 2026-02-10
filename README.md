@@ -1,8 +1,5 @@
-https://img.shields.io/badge/Python-3.8.8-blue
+<img src="https://img.shields.io/badge/Python-3.8.8-blue"/>
 
-<a href="https://molly1024.medium.com/" target="_blank">
-      <img src="https://img.shields.io/badge/Python-3.8.8-blue" />
-</a>
 
 # 論文介紹網站－跌倒風險預測系統
 
